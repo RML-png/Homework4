@@ -104,6 +104,7 @@ main {
   background-color: var(--dark-accent);
   color: var(--light);
   border-top: solid .5rem var(--disabled);
+  --circle-color: #b4e456;
 }
 
 .light header,

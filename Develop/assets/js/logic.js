@@ -17,6 +17,8 @@ themeSwitcher.addEventListener('click', function () {
   localStorage.setItem('mode', mode); // Save mode to local storage
 });
 
+
+
 // Function to read from local storage
 function readLocalStorage() {
   const blogData = JSON.parse(localStorage.getItem('blog')) || [];
@@ -30,6 +32,8 @@ function storeLocalStorage(newPost) {
   blogData.push(newPost);
   localStorage.setItem('blog', JSON.stringify(blogData));
 }
+
+
 
 let redirectURL = '';
 
